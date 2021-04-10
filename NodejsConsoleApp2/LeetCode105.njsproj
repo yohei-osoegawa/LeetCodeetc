@@ -13,7 +13,7 @@
     <ProjectGuid>52c5a0e3-2c2b-4f55-a658-8a18643f605e</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>app.ts</StartupFile>
+    <StartupFile>leetCode105.ts</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -31,7 +31,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="app.ts" />
+    <None Include="leetCode105.ts" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="tsconfig.json" />

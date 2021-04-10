@@ -23,7 +23,7 @@ function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
             return { tree: null, nextPre: preorder };
         }
 
-        const [nodeVal, ...nextLeftPreorder] = preorder;  // 残余構文を用いてhead::tail形式に分割する
+        const [nodeVal, ...nextLeftPreorder] = preorder;  // 分割代入を用いてhead::tail形式に分割する
 
         // 右SubTreeと左SubTreeを表す配列へとinorderを分割する
         // ※なお、これはhead,tailが空配列だった場合も正しく機能するが、numが見つからない場合は例外を発生させるはず

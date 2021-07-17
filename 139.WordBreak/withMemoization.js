@@ -1,4 +1,3 @@
-
 /**
  * @param {string} s
  * @param {string[]} wordDict
@@ -17,17 +16,10 @@ const wordBreak = (s, wordDict) => {
             canSegument.set(key, result);
             return result;
         }
-
         if (canSegument.has(key)) {
             return canSegument.get(key);
         }
         if (headI === s.length) {
-            return memoize(true);
-        }
-        if (headI > tailI) {
-            return memoize(true);
-        }
-        if (tailI === s.length) {
             return memoize(true);
         }
         if (set.has(s.substring(headI, tailI + 1))) {
@@ -35,7 +27,7 @@ const wordBreak = (s, wordDict) => {
         }
         const width = tailI - headI
         const result = [...new Array(width).keys()]
-            .some(i => wordBreak(headI, headI + i) && wordBreak(headI + i + 1, tailI))
+            .some(i => set.has(s.substring(headI, headI + i + 1)) && wordBreak(headI + i + 1, tailI))
         return memoize(result);
     };
 

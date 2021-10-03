@@ -1,0 +1,9 @@
+{
+  "name": "ship",
+  "version": "0.0.0",
+  "description": "ship",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}

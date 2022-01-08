@@ -1,5 +1,3 @@
-import { assert } from "console"
-
 class TreeNode {
     val: number
     left: TreeNode | null

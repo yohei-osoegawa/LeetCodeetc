@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace LeetCode_20210919 {
+namespace LeetCode_SandBox {
     public static class ReverseString {
         public static void Execute(char[] s) {
             // メモリを気にしない単純解、Reverseは使わない

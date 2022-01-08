@@ -1,11 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCode_20210919;
+using LeetCode_SandBox;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using FluentAssertions;
 
-namespace LeetCode_20210919.Tests {
+namespace LeetCode_SandBox.Tests {
     [TestClass()]
     public class ReverseStringTests {
         [TestMethod()]

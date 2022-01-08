@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LeetCode_20210919 {
+namespace LeetCode_SandBox {
     class Program {
         static void Main(string[] args) {
             var input = "hello world";

@@ -15,5 +15,13 @@ namespace LeetCode_20210919.Tests {
             ReverseString.Execute(s);
             s.Should().BeEquivalentTo(expected);
         }
+
+        [TestMethod()]
+        public void Execute2Test() {
+            var s = new[] { 'h', 'e', 'l', 'l', 'o' };
+            var expected = new[] { 'o', 'l', 'l', 'e', 'h' };
+            ReverseString.Execute2(s);
+            s.Should().BeEquivalentTo(expected);
+        }
     }
 }

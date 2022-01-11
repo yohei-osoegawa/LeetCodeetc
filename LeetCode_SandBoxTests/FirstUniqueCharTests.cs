@@ -17,5 +17,14 @@ namespace LeetCode_SandBox.Tests {
                 FirstUniqueChar.Execute(input).Should().Be(expected, $"input:{input}");
             }
         }
+
+        [TestMethod()]
+        public void ExecuteTest2() {
+            var inputs = new[] { "leetcode", "loveleetcode", "aabb" };
+            var expexteds = new[] { 0, 2, -1 };
+            foreach (var (input, expected) in inputs.Zip(expexteds)) {
+                FirstUniqueChar.Execute2(input).Should().Be(expected, $"input:{input}");
+            }
+        }
     }
 }

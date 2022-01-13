@@ -35,7 +35,8 @@ const findDuplicateSubString = (input1, input2) => {
             const idPair = JSON.parse(strIdPair);
             let [i1, i2] = idPair;
             // インデックス+1されたidは、文字的には直後の文字
-            while (idPairSet.has(JSON.stringify([++i1, ++i2]))) {
+            // HACK: このwhileのせいでまだ最悪の場合O(min(n^2,m^2))だと思う。ただ、やってることは実質グルーピングなので、ここはO(nlogn)に抑えられるはず
+            while (idPairSet.has(JSON.stringify([++i1, ++i2]))) { 
                 if (i1 - idPair[0] + 1 > array.length) {
                     return input1.slice(idPair[0], i1 + 1);
                 }

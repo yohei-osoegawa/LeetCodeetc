@@ -9,7 +9,9 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "139.WordBreak", "139.WordBr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_SandBox", "LeetCode_SandBox\LeetCode_SandBox.csproj", "{745E17F8-3813-4172-BCD0-30681D2A4088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_SandBoxTests", "LeetCode_SandBoxTests\LeetCode_SandBoxTests.csproj", "{5DA33777-987A-460B-A5D2-DACC71D9471E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_SandBoxTests", "LeetCode_SandBoxTests\LeetCode_SandBoxTests.csproj", "{5DA33777-987A-460B-A5D2-DACC71D9471E}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "SandBoxJS", "SandBoxJS\SandBoxJS.njsproj", "{508CF720-D3AF-4A8A-8A3C-EDF4A370B487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5DA33777-987A-460B-A5D2-DACC71D9471E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DA33777-987A-460B-A5D2-DACC71D9471E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DA33777-987A-460B-A5D2-DACC71D9471E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508CF720-D3AF-4A8A-8A3C-EDF4A370B487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508CF720-D3AF-4A8A-8A3C-EDF4A370B487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508CF720-D3AF-4A8A-8A3C-EDF4A370B487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508CF720-D3AF-4A8A-8A3C-EDF4A370B487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

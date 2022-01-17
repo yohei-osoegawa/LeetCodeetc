@@ -28,5 +28,10 @@ namespace LeetCode_SandBox {
             }
             return same;
         }
+
+        public static bool IsAnagram2(string s, string t) {
+            // 冷静に考えたらソートして文字列比較したほうが早そうだし、シンプル
+            return new String(s.ToCharArray().OrderBy(x => x).ToArray()) == new String(t.ToCharArray().OrderBy(x => x).ToArray());
+        }
     }
 }

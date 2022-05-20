@@ -21,5 +21,14 @@ public class BestTimeToBuyStock {
             .Cast<int?>()
             .Sum() ?? 0;
     }
+
+    // メモリ制約を気にする場合
+    public int MaxProfit2(int[] prices) {
+        int result = 0;
+        for (int i = 0; i < prices.Length-1; i++) {
+            result += Math.Max(prices[i + 1] - prices[i], 0);
+        }
+        return result;
+    }
 }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 public class ClsSortColors {
     public void SortColors(int[] nums) {
@@ -18,5 +19,10 @@ public class ClsSortColors {
                 i++;
             }
         }
+    }
+
+    // ソートを用いた単純解
+    public void SortColors2(int[] nums) {
+        nums = nums.OrderBy(x=>x).ToArray();
     }
 }

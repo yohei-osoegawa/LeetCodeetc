@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-class ReverseLinkedList {
+public class ReverseLinkedList {
     public ListNode ReverseList(ListNode head) {
         // 破壊的再帰実装
         if (head is null || head.next is null) {

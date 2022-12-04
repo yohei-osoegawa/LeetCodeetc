@@ -7,9 +7,9 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "LeetCode105", "NodejsConsol
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "139.WordBreak", "139.WordBreak\139.WordBreak.njsproj", "{24FCE56A-69CA-47A2-8314-A69339934B13}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_SandBox", "LeetCode_SandBox\LeetCode_SandBox.csproj", "{745E17F8-3813-4172-BCD0-30681D2A4088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeProblems", "LeetCode_SandBox\LeetCodeProblems.csproj", "{745E17F8-3813-4172-BCD0-30681D2A4088}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode_SandBoxTests", "LeetCode_SandBoxTests\LeetCode_SandBoxTests.csproj", "{5DA33777-987A-460B-A5D2-DACC71D9471E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodProblems_Test", "LeetCode_SandBoxTests\LeetCodProblems_Test.csproj", "{5DA33777-987A-460B-A5D2-DACC71D9471E}"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "SandBoxJS", "SandBoxJS\SandBoxJS.njsproj", "{508CF720-D3AF-4A8A-8A3C-EDF4A370B487}"
 EndProject

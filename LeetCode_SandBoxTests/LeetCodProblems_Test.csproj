@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LeetCode_SandBox\LeetCode_SandBox.csproj" />
+    <ProjectReference Include="..\LeetCode_SandBox\LeetCodeProblems.csproj" />
   </ItemGroup>
 
 </Project>

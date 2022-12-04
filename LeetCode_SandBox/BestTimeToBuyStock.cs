@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 public class BestTimeToBuyStock {
     public int MaxProfit(int[] prices) {
         return prices.Aggregate(

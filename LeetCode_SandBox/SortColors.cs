@@ -2,6 +2,8 @@
 using System.Linq;
 
 public class ClsSortColors {
+
+    // https://leetcode.com/problems/sort-colors/
     public void SortColors(int[] nums) {
         // 3状態しかないことに着目して、先頭と末尾へ選択ソートすれば線形時間で終わる。
         var tail0 = 0;

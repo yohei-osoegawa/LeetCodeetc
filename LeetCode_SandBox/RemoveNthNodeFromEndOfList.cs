@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 
 public class RemoveNthNodeFromEndOfList {
+    // https://leetcode.com/problems/remove-nth-node-from-end-of-list/
     public ListNode RemoveNthFromEnd(ListNode head, int n) {
         // メモリ制約がないので、リストにそれぞれのノードを記憶させる方針
         var nodes = new List<ListNode> { head };

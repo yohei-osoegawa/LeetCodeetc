@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 public class RotateArray {
+    // https://leetcode.com/problems/rotate-array/
     public void Rotate(int[] nums, int k) {
         // Hack: メモリ性能が悪い。タプルを用いたスワップのせい？
         var length = nums.Length;

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LeetCode_SandBox {
+    // https://leetcode.com/problems/longest-common-prefix/
     public static class LongestCommonPrefix {
         public static string Execute(string[] strs) {
             // 単なる総当たりで問題ないと判断

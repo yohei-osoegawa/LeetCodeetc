@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 public class ClsSingleNumber {
+    // https://leetcode.com/problems/single-number/
     public int SingleNumber(int[] nums) {
         // ビットXOR演算を用いると偶数個数のものが消去される。
         return nums.Aggregate((acc, x) => acc ^ x);

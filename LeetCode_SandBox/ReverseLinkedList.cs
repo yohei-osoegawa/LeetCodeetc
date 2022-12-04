@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 
 public class ReverseLinkedList {
+
+    // https://leetcode.com/problems/reverse-linked-list/
     public ListNode ReverseList(ListNode head) {
         // 破壊的再帰実装
         if (head is null || head.next is null) {
